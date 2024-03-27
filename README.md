@@ -19,7 +19,10 @@
       <h3>登陆页面 邮箱/手机号登陆</h3>
     </div>
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-        <img src="https://raw.githubusercontent.com/KunspireUp/web-project/main/img/loginPage.png" alt="登录页面1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/KunspireUp/web-project/main/img/loginPage2.png" alt="登录页面2">
+        <img src="https://raw.githubusercontent.com/KunspireUp/web-project/main/img/loginPage.png" alt="登录页面1">
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <img src="https://raw.githubusercontent.com/KunspireUp/web-project/main/img/loginPage2.png" alt="登录页面2">
     </div>
     <div align="center">
       <h3>课程页面 index.html</h3>
