@@ -1,0 +1,16 @@
+{
+  "id": "3484065",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "755551",
+      "name": "菱形",
+      "font_class": "lingxing",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

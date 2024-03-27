@@ -1,0 +1,20 @@
+/*
+@author 杨森喜
+@学号：0411200429
+@班级：软件A2004班
+@CSS 文件属性 ：
+登录/注册页面弹出时候的背景遮罩样式
+*/
+
+/* 登录界面遮罩效果 */
+.bg {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: fixed;
+    opacity: 0.3;
+    -webkit-opacity: 0.3;
+    -moz-opacity: 0.3;
+    display: none;
+}

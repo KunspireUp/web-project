@@ -1,0 +1,16 @@
+{
+  "id": "3483964",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15838451",
+      "name": "chart-pie",
+      "font_class": "chart-pie",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    }
+  ]
+}

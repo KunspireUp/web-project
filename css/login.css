@@ -1,0 +1,241 @@
+/*
+@author 杨森喜
+@学号：0411200429
+@班级：软件A2004班
+@CSS 文件属性 ：
+1.注册页面的基本样式
+2.页面水平垂直居中样式
+*/
+
+body,
+ul,
+li,
+p,
+a {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#login {
+    width: 420px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid red; */
+    border-radius: 12px;
+    display: none;
+    background: white;
+    z-index: 200000;
+}
+
+#login_top>h2 {
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#login_top>button {
+    position: relative;
+    float: right;
+    top: 32px;
+    right: 25px;
+    width: 24px;
+    height: 24px;
+    border: 0px;
+    background: white;
+    /* border: 1px solid red; */
+}
+#login_top>button:hover{
+    background: rgb(221, 220, 220);
+    text-decoration: none;
+}
+#login_top>button>a{
+    border: 0px;
+}
+
+#login_top>button>a>img {
+    float: right;
+    width: 18px;
+    margin-top: 1px;
+    margin-right: -3px;
+    opacity: 0.5;
+}
+
+#login_center {
+    width: 355px;
+    height: 320px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    float: left;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+
+/* input 样式 */
+#login_center>input:first-child {
+    width: 350px;
+    height: 48px;
+    padding: 0px 14px 0px 14px;
+    margin-top: 2px;
+    background: rgba(28, 31, 33, .06);
+    box-shadow: 2px 0 5px 0 #fff;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+}
+
+#login_center>input:nth-child(3) {
+    width: 350px;
+    height: 48px;
+    padding: 0px 14px 0px 14px;
+    margin-top: 2px;
+    background: rgba(28, 31, 33, .06);
+    box-shadow: 2px 0 5px 0 #fff;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+}
+
+#login_center>div {
+    position: relative;
+    float: right;
+    /* border: 1px solid red; */
+    margin-top: -35px;
+    margin-right: 15px;
+    z-index: 10;
+}
+
+#login_center>div>a {
+    text-decoration: none;
+    color: #3377ff;
+}
+
+#login_center>div>a:hover {
+    color: #1c3f83;
+}
+
+/* input 下面警示栏样式 */
+#login_center>span {
+    float: left;
+    font-size: 14px;
+    margin-top: 2px;
+    color: red;
+    visibility: hidden;
+}
+
+#select {
+    float: left;
+    width: 350px;
+    height: 24px;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+}
+
+#select>span:nth-child(2),
+#select>span:nth-child(4) {
+    color: #9199a1;
+}
+
+#select>div {
+    margin-top: 5px;
+}
+
+#select>div>span {
+    color: red;
+    /* visibility: hidden; */
+}
+
+#select>a {
+    color: #3377ff;
+}
+
+#select>a:hover {
+    color: #1c3f83;
+}
+
+/* 立即注册按钮 */
+#login_btn {
+    position: relative;
+}
+
+/* 选项框下面的信息隐藏 */
+
+
+#login_btn>div {
+    float: left;
+    width: 320px;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-top: 75px;
+}
+
+#login_btn>div>input {
+    width: 320px;
+    height: 48px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    font-size: 16px;
+}
+
+#login_btn>div>div {
+    /* border: 1px solid green; */
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#login_btn>div>div>a {
+    color: red;
+}
+
+/* 底部图标 */
+#login_bottom>div {
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 52px;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+
+#login_bottom>div:first-child {
+    background: #edf5ff;
+}
+
+#login_bottom>div:nth-child(2) {
+    background: #e5ffe1;
+}
+
+#login_bottom>div:last-child {
+    background: #fff2f5;
+}
+
+#login_bottom>div:first-child>a>img {
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#login_bottom>div:nth-child(2)>a>img {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#login_bottom>div:last-child>a>img {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#login_bottom>div:hover {
+    box-shadow: 2px 0 5px 0 #ccc;
+}

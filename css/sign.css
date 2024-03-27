@@ -1,0 +1,374 @@
+/*
+@author 杨森喜
+@学号：0411200429
+@班级：软件A2004班
+@CSS 文件属性 ：
+1.登录页面的基本样式
+2.页面水平垂直居中样式
+*/
+
+
+body,
+ul,
+li,
+p,
+a {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#sign {
+    width: 420px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid red; */
+    border-radius: 12px;
+    display: none;
+    background: white;
+    z-index: 10000;
+}
+
+#sign_top>a:first-child>h2 {
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-bottom: 3px solid red;
+}
+
+#sign_top>a:nth-child(2)>h2 {
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-bottom: 0px solid red;
+}
+
+#sign_top>button {
+    position: relative;
+    float: right;
+    top: 32px;
+    right: 25px;
+    width: 24px;
+    height: 24px;
+    border: 0px;
+    background: white;
+}
+
+#sign_top>button:hover{
+    background: rgb(221, 220, 220);
+    text-decoration: none;
+}
+#sign_top>button>a{
+    border: 0px;
+}
+
+#sign_top>button>a>img  {
+    float: right;
+    width: 18px;
+    margin-top: 1px;
+    margin-right: -3px;
+    opacity: 0.5;
+}
+
+#sign_center {
+    position: relative;
+    width: 355px;
+    height: 290px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    float: left;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+
+/* input 的输入框样式样式 */
+#type_1>input:first-child {
+    width: 350px;
+    height: 48px;
+    padding: 0px 14px 0px 14px;
+    margin-top: 2px;
+    background: rgba(28, 31, 33, .06);
+    box-shadow: 2px 0 5px 0 #fff;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+}
+
+/* input 输入密码的样式 */
+#type_1>input:nth-child(3) {
+    width: 350px;
+    height: 48px;
+    padding: 0px 14px 0px 14px;
+    margin-top: 2px;
+    background: rgba(28, 31, 33, .06);
+    box-shadow: 2px 0 5px 0 #fff;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+}
+
+/* 显示小眼睛的地方，不显示密码 */
+#show_1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    margin-top: -40px;
+    margin-left: 300px;
+    z-index: 10;
+    height: 30px;
+    width: 30px;
+    display: none;
+}
+
+/* 显示小眼睛的地方，显示密码 */
+#show_2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    margin-top: -40px;
+    margin-left: 300px;
+    z-index: 10;
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+
+/* 将小眼睛隐藏了 */
+#show_pwd {
+    display: block;
+}
+
+/* 小眼睛的图片样式 */
+#show_1>a>img {
+    width: 30px;
+}
+
+/* 第二个小眼睛的图片样式 */
+#show_2>a>img {
+    width: 30px;
+}
+
+/* 将 type_1 进行隐藏 */
+#type_1 {
+    display: block;
+}
+
+/* input 下面警示栏样式 */
+#type_1>span {
+    float: left;
+    font-size: 14px;
+    margin-top: 2px;
+    color: red;
+    visibility: hidden;
+}
+
+
+/* 验证码登录样式 */
+
+/* 验证码登录隐藏 */
+#type_2 {
+    display: none;
+}
+
+#type_2>input:first-child {
+    width: 350px;
+    height: 48px;
+    padding: 0px 14px 0px 14px;
+    margin-top: 2px;
+    background: rgba(28, 31, 33, .06);
+    box-shadow: 2px 0 5px 0 #fff;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+}
+
+#type_2>input:nth-child(3) {
+    width: 350px;
+    height: 48px;
+    padding: 0px 14px 0px 14px;
+    margin-top: 2px;
+    background: rgba(28, 31, 33, .06);
+    box-shadow: 2px 0 5px 0 #fff;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+}
+
+#type_2>span {
+    float: left;
+    font-size: 14px;
+    margin-top: 2px;
+    color: red;
+    visibility: hidden;
+}
+
+#type_2>div {
+    position: relative;
+    float: right;
+    /* border: 1px solid red; */
+    margin-top: -35px;
+    margin-right: 15px;
+    z-index: 10;
+}
+
+#type_2>div>a {
+    text-decoration: none;
+    color: #3377ff;
+}
+
+#type_2>div>a:hover {
+    color: #1c3f83;
+}
+
+#sign_top>a {
+    color: black;
+}
+
+#sign_top>a:hover {
+    color: red;
+}
+
+
+/* 下发的选项位置 */
+#select_1 {
+    float: left;
+    width: 350px;
+    height: 20px;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+}
+
+/* 选项条的颜色 */
+#select_1>span:nth-child(2),
+#select_1>a:nth-child(3),
+#select_1>span:nth-child(4),
+#select_1>a:nth-child(5) {
+    color: #959da5;
+}
+
+#select_1>a:nth-child(3) {
+    margin-left: 60px;
+}
+
+#select_1>span:nth-child(4) {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+
+#select_1>a:hover {
+    color: #3377ff;
+}
+
+/* 立即注册按钮 */
+#sign_btn {
+    position: relative;
+}
+
+/* 选项框下面的信息隐藏 */
+
+
+#sign_btn>div {
+    float: left;
+    width: 320px;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-top: 17px;
+    margin-left: 15px;
+}
+
+#sign_btn>div>input {
+    width: 320px;
+    height: 48px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    font-size: 16px;
+}
+
+#sign_btn>div>div {
+    /* border: 1px solid green; */
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#sign_btn>div>div>a {
+    color: red;
+}
+
+/* 底部图标 */
+#sign_bottom>div:first-child,
+#sign_bottom>div:nth-child(2),
+#sign_bottom>div:nth-child(3) {
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 45px;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+
+/* 同意协议 */
+#sign_bottom>div:nth-child(4) {
+    width: 290px;
+    height: 22px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 68px;
+    margin-top: 10px;
+}
+
+#sign_bottom>div:nth-child(4)>span {
+    color: #959da5;
+}
+
+#sign_bottom>div:nth-child(4)>span>a {
+    color: #3377ff;
+}
+
+#sign_bottom>div:nth-child(4)>span>a:hover {
+    color: red;
+}
+
+#sign_bottom>div:first-child {
+    background: #edf5ff;
+}
+
+#sign_bottom>div:nth-child(2) {
+    background: #e5ffe1;
+}
+
+#sign_bottom>div:nth-child(3) {
+    background: #fff2f5;
+}
+
+#sign_bottom>div:first-child>a>img {
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#sign_bottom>div:nth-child(2)>a>img {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#sign_bottom>div:nth-child(3)>a>img {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#sign_bottom>div:first-child:hover,
+#sign_bottom>div:nth-child(2):hover,
+#sign_bottom>div:nth-child(3):hover {
+    box-shadow: 2px 0 5px 0 #ccc;
+}
