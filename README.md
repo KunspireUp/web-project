@@ -9,7 +9,7 @@
     <div align="center">
       <h3>👋 Hi there, 这是一个 HTML+CSS+JQuery+JavaScript web 网站练手小项目</h3>
       <div class="divider"></div> <!-- 分割线 -->
-      <h3>👋 点击这里可以查看网页：点击查看 🚩 http://web-project-woad-delta.vercel.app</h3>
+      <h3>👋 点击这里可以查看网页：点击查看 需要梯子，Vercel部署的🚩 http://web-project-woad-delta.vercel.app</h3>
     </div>
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
         <h3>网站首页 index.html</h3>
